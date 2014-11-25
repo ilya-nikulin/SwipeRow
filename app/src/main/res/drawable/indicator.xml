@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_expanded="true">
+        <layer-list>
+            <item
+                android:left="330dp"
+                android:drawable="@drawable/exp_list_indicator_open_"/>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item
+                android:left="330dp"
+                android:drawable="@drawable/exp_list_indicator_close_"/>
+        </layer-list>
+    </item>
+</selector>

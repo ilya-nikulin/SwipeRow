@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_main"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:id="@+id/bankproduct_group_icon"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/bankproducts_cards_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:id="@+id/bankproduct_group_name"
+        android:textColor="@color/bankproduct_type_text"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="60dp"
+        android:text="Карты" />
+</FrameLayout>
